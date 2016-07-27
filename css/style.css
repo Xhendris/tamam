@@ -1,0 +1,46 @@
+body {
+    background-color: #000;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+    list-style-type: armenian;
+    font-size: 62.5%;
+    font-weight: 200;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+@media only screen and (max-width: 1000px){
+    body {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body {
+        font-size: 60%;
+    }
+}
+
+#Container {
+    width: 100%;
+    max-width: 1280px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#Title {
+    margin: 20px;
+    border-bottom: 1px solid black;
+    font-size: 4em;
+}
+
+#Splash {
+    background-color: aqua;
+    font-size: 2em;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+}
