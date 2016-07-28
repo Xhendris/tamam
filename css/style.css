@@ -92,3 +92,15 @@ nav ul li a:hover {
     font-size: 2em;
     margin: 40px;
 }
+
+#PageTop img.hover {
+    display: none;
+}
+
+#PageTop:hover img.original, #PageTop:active img.original, #PageTop:focus img.original {
+    display: none;
+}
+
+#PageTop:hover img.hover, #PageTop:active img.hover, #PageTop:focus img.hover {
+    display: block;
+}
