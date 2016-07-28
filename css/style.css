@@ -97,10 +97,10 @@ nav ul li a:hover {
     display: none;
 }
 
-#PageTop:hover img.original, #PageTop:active img.original, #PageTop:focus img.original {
+#PageTopImg:hover img.original, #PageTopImg:active img.original, #PageTopImg:focus img.original {
     display: none;
 }
 
-#PageTop:hover img.hover, #PageTop:active img.hover, #PageTop:focus img.hover {
+#PageTopImg:hover img.hover, #PageTopImg:active img.hover, #PageTopImg:focus img.hover {
     display: block;
 }
