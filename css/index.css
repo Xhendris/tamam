@@ -52,6 +52,8 @@ a.link {
     padding: 0;
     text-decoration: none;
     position: relative;
+
+    outline: none;
 }
 
 a.link img {
@@ -76,26 +78,26 @@ a.link p {
     display: inline-block;
 }
 
-a.link:hover p {
+a.link:hover p, a.link:active p, a.link:focus p{
     color: #000;
 }
 
-a.link:hover img.original {
+a.link:hover img.original, a.link:active img.original, a.link:focus img.original {
     display: none;
 }
 
-a.link:hover img.hover {
+a.link:hover img.hover, a.link:active img.hover, a.link:focus img.hover {
     display: block;
 }
 
-a.link:hover:nth-child(1) p{
+a.link:hover:nth-child(1) p, a.link:active:nth-child(1) p, a.link:focus:nth-child(1) p {
     border-bottom-color: #FF3232;
 }
 
-a.link:hover:nth-child(2) p{
+a.link:hover:nth-child(2) p, a.link:active:nth-child(2) p, a.link:focus:nth-child(2) p {
     border-bottom-color: #FF7218;
 }
 
-a.link:hover:nth-child(3) p{
+a.link:hover:nth-child(3) p, a.link:active:nth-child(3) p, a.link:focus:nth-child(3) p {
     border-bottom-color: #FFFA4F;
 }
