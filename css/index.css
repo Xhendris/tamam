@@ -51,12 +51,17 @@ a.link {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    position: relative;
 }
 
 a.link img {
     height: 310px;
-    width: 237px;
+    width: 236px;
     display: block;
+}
+
+a.link img.hover{
+    display: none;
 }
 
 a.link p {
@@ -75,14 +80,22 @@ a.link:hover p {
     color: #000;
 }
 
-a.link:hover:nth-child(1) p{    
+a.link:hover img.original {
+    display: none;
+}
+
+a.link:hover img.hover {
+    display: block;
+}
+
+a.link:hover:nth-child(1) p{
     border-bottom-color: #FF3232;
 }
 
-a.link:hover:nth-child(2) p{    
+a.link:hover:nth-child(2) p{
     border-bottom-color: #FF7218;
 }
 
-a.link:hover:nth-child(3) p{    
+a.link:hover:nth-child(3) p{
     border-bottom-color: #FFFA4F;
 }
