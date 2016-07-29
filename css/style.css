@@ -104,3 +104,24 @@ nav ul li a:hover {
 #PageTopImg:hover img.hover, #PageTopImg:active img.hover, #PageTopImg:focus img.hover {
     display: block;
 }
+.ContactCard {
+    font-size: 2.5em;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+#ContactName {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+#ContactInfo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#ContactAddress {
+    text-decoration: underline;
+    color: blue;
+}
